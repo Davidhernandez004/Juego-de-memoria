@@ -1,0 +1,81 @@
+body{
+    background: #757F9A;
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A); 
+    background: linear-gradient(to right, #D7DDE8, #757F9A); 
+    background: #403B4A; 
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  
+    background: linear-gradient(to right, #E7E9BB, #403B4A);
+    background: #B79891;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+main{
+    width: 730px;
+    border-radius: 30px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.section1{
+   background-color: rgba(255, 255, 255, 0.2); 
+   padding: 0 10px 10px 10px;
+    border-radius:  30px; ;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.section2{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px; ;
+    width: 250px;
+    height: 400px;
+    padding:0 20px ;
+}
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 30px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+footer p{
+    text-align: center ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.refresh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin: 100px;
+
+ 
+}
+#refresh{
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 16px;
+    background-color: #757F9A;
+    border-radius: 30px;
+
+}
+      
+
+
